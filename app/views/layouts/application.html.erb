@@ -25,31 +25,15 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
-		<!-- Libs CSS
-		============================================ -->
-		<link rel="stylesheet" href="css/animate.css">
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-
-		<!-- Theme CSS
-		============================================ -->
-		<link rel="stylesheet" href="css/style.css">
-		<!-- <link rel="stylesheet" href="css/rtl.css"> -->
-
-		<!-- JS Libs
-		============================================ -->
-		<script src="plugins/modernizr.js"></script>
-
-		<!-- Old IE stylesheet
-		============================================ -->
-		<!--[if lte IE 9]>
-			<link rel="stylesheet" type="text/css" href="css/oldie.css">
-			<script src="js/placeholderIE.js"></script>
-		<![endif]-->
+		<%= stylesheet_link_tag "application" %>
+		<%= javascript_include_tag "application" %>
+		
 
 	</head>
 
 
 	<body>
+		
 		<%= render 'layouts/header' %>
 		<%= yield %>
 		<%= render 'layouts/footer' %>
