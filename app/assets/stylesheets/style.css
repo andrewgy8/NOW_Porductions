@@ -5430,6 +5430,7 @@
 
 		.hm_wrap .navigation{
 			display: inline-block !important;
+			vertical-align: right !important;
 		}
 
 		.menu_opened #top_actions_wrap > *:not(#toggle_menu):not(.nav_searchform){

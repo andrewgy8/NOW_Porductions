@@ -24,9 +24,9 @@
 
 			<ul class="navigation">
 
-				<li class="has_submenu">
+				<li class="has_submenu current">
 
-					<a href="index.html">Home</a>
+					<a><% link_to "Home", root_path %></a>
 
 					<!-- - - - - - - - - - - - - - Submenu (level 2) - - - - - - - - - - - - - - - - -->
 
@@ -52,7 +52,7 @@
 
 				</li>
 
-				<li class="has_submenu current">
+				<li class="has_submenu">
 
 					<a href="pages_about.html">Pages</a>
 
@@ -83,7 +83,7 @@
 
 						<li class="has_submenu">
 
-							<a href="portfolio_masonry_full_width.html">Masonry</a>
+							<a><%= link_to("Sub Menu", portfolio_path) %></a>
 
 							<!-- - - - - - - - - - - - - - Submenu (level 3) - - - - - - - - - - - - - - - - -->
 
@@ -242,7 +242,16 @@
 
 		<!-- - - - - - - - - - - - - - End of Searchform - - - - - - - - - - - - - - - - -->
 
-		<span id="toggle_menu" class="si-icon" data-width="36" data-height="36" data-event="click" data-icon-name="hamburgerCross"></span>
+		<span id="toggle_menu" class="si-icon" data-width="36" data-height="36" data-event="click" data-icon-name="hamburgerCross">
+			<?xml version="1.0" encoding="utf-8"?>
+			<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+				<g>
+					<path fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="bevel" d="m 5.0916789,20.818994 53.8166421,0"/>
+					<path fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="bevel" d="m 5.1969746,31.909063 53.8166424,0"/>
+					<path fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="bevel" d="m 5.0916788,42.95698 53.8166422,0"/>
+				</g>
+			</svg>
+		</span>
 
 	</div><!--/ #top_btns_wrap -->
 
