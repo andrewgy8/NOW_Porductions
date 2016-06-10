@@ -447,7 +447,7 @@
 	.iframe_wrap{
 		position: relative;
 		height: 0px;
-		padding-bottom: 58%;
+		padding-bottom: 50%;
 	}
 
 	.iframe_wrap > iframe{
@@ -460,6 +460,7 @@
 
 	iframe[src*="soundcloud.com/player"]{
 		width: 100%;
+		padding-bottom: 0 !important;
 	}
 
 	.on_the_sides{
@@ -586,7 +587,7 @@
 ------------------------------------------------ */
 
 	#header{
-		background: #181818;
+		background: #7E7E7E;
 		padding: 8px 30px 17px;
 		position: fixed;
 		z-index: 103;
@@ -600,7 +601,7 @@
 	}
 
 	#header.filled{
-		background: #181818;
+		background: #7E7E7E;
 	}
 
 	#header::after{
@@ -627,7 +628,7 @@
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background: #181818;
+		background: ##7E7E7E;
 		opacity: 0;
 
 		-webkit-transition: -webkit-transform .4s ease, opacity .4s ease;
@@ -723,7 +724,7 @@
 
 		.navigation li a{
 			color: #cdcdcd;
-			display: block;
+			display: inline;
 		}
 
 		.navigation a:hover,
@@ -738,6 +739,8 @@
 		.navigation .has_submenu > a{
 			position: relative;
 			padding: 0 20px 0 0;
+			color: white;
+
 		}
 
 		.navigation .has_submenu > a::after{
@@ -753,8 +756,8 @@
 			right: 4px;
 			margin-top: 1px;
 
-			-webkit-transition: inherit;
-					transition: inherit;
+			/*-webkit-transition: inherit;
+					transition: inherit;*/
 		}
 
 		.navigation li:hover > a,
@@ -764,7 +767,7 @@
 		}
 
 		.navigation a::before{
-			display: none !important;
+			display: inline !important;
 		}
 
 		.navigation li:hover > a::after,
@@ -772,8 +775,8 @@
 		.navigation .has_submenu.current > a::after{
 			color: #0097ad;
 
-			-webkit-transition: inherit;
-					transition: inherit;
+			/*-webkit-transition: inherit;
+					transition: inherit;*/
 		}
 
 		.navigation .active > a::after{
@@ -862,8 +865,8 @@
 				padding-right: 250px;
 				opacity: 0;
 				visibility: hidden;
-				/*position: absolute;*/
-				top: 0px;
+/*				position: absolute;
+*/				top: 0px;
 
 				-webkit-transition: -webkit-transform .4s ease, opacity .4s ease, visibility .4s ease;
 						transition: 		transform .4s ease, opacity .4s ease, visibility .4s ease;
@@ -872,6 +875,7 @@
 					-ms-transform: translateY(-80%);
 						transform: translateY(-80%);
 			}
+
 
 			.hm_wrap.opened{
 				opacity: 1;
@@ -886,6 +890,7 @@
 				content: "";
 				display: block;
 				clear: both;
+
 			}
 
 			.hm_wrap .navigation > li{
@@ -2969,6 +2974,7 @@
 		right: 0;
 		bottom: 0;
 		left: 0;
+
 	}
 
 	.product_thumbs{
@@ -5496,7 +5502,7 @@
 		}
 
 		.hm_wrap{
-			display: block;
+			display: inline;
 			position: absolute;
 			top: 100%;
 			width: 100%;
@@ -6116,6 +6122,7 @@
 
 		#page_wrap{
 			padding-top: 50px;
+			padding-bottom: 0px !important;
 		}
 
 		.vimeo_container .fs_video,

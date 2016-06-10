@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require jquery.easytabs.min.js
 //= require jquery.fancybox.js 
 //= require jquery-2.1.3.min.js
 //= require jquery-ui.min.js
@@ -22,7 +23,6 @@
 //= require flickr.js
 //= require instafeed.min.js
 //= require isotope.pkgd.min.js
-//= require jquery.easytabs.min.js
 //= require jquery.elevateZoom-3.0.8.min.js
 //= require jquery.mousewheel-3.0.6.pack.js
 //= require jquery.mousewheel.min.js
