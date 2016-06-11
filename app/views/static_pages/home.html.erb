@@ -1,21 +1,151 @@
 <% provide(:title, "Home") %>
 
-<!-- - - - - - - - - - - - - - Page content - - - - - - - - - - - - - - - - -->
+<!-- Intro -->
+<section id="intro" class="intro">
 
-<div id="page_wrap" class="fullscreen vimeo_container">
+    <!-- Revolution Bg Video -->
+    <div class="tp-banner-container">
+        <div class="intro-Rev_Video text-center dark-bg black-bg">
+            <ul>
+                <li data-transition="fadein" data-slotamount="default" data-saveperformance="off" data-fsslotamount="7">
 
-	<div class="full_screen_container"></div>
+                    <!-- MAIN IMAGE -->
+                    <img src="media/video1_poster.jpg" alt="video_forest" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                    <!-- LAYERS -->
 
-	<!-- - - - - - - - - - - - - - Page Background - - - - - - - - - - - - - - - - -->
+                    <!-- Video Bg-->
+                    <div class="tp-caption fullscreenvideo"
+                        data-x="0"
+                        data-y="0"
+                        data-speed="0"
+                        data-start="0"
+                        data-easing="easeNone"
+                        data-endspeed="1500"
+                        data-endeasing="easeNone"
+                        data-autoplay="true"
+                        data-autoplayonlyfirsttime="false"
+                        data-nextslideatend="true"
+                        data-videowidth="100%"
+                        data-videoheight="100%"
+                        data-forcecover="1"
+                        data-dottedoverlay="twoxtwo"
+                        data-aspectratio="16:9"
+                        data-forcerewind="on"
+                        data-volume="mute"
+                        style="z-index: 2">
 
-	<div class="fs_video">
 
-		<iframe id="vimeo_video" src="http://player.vimeo.com/video/42829407?autoplay=1&amp;loop=0"></iframe>
-		
-	</div>
+                        <video class="video-js vjs-default-skin" preload="" loop="" width="100%" height="100%"
+                            poster='media/video1_poster.jpg'>
+                            <%= image_tag("Snowdrops-in-the-woods.mp4", :type => "video/mp4") %>
+                            <source src='media/video1.webm' type='video/webm' />
+                            <source src='media/video1.ogv' type='video/ogg' />
+                        </video>
 
-	<!-- - - - - - - - - - - - - - End Page Background - - - - - - - - - - - - - - - - -->
 
-</div><!--/ .page_wrapper -->
+                        <!-- LAYER NR. 1 -->
+                        <h5 class="tp-caption customin customout sfb"
+                            data-x="center"
+                            data-hoffset="0"
+                            data-y="center"
+                            data-voffset="-80"
+                            data-speed="800"
+                            data-start="800"
+                            data-endspeed="500"
+                            data-customin="x:-0;y:-100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-easing="Linear.easeNone"
+                            data-elementdelay="0.1">The Film Agency
+                        </h5>
 
-<!-- - - - - - - - - - - - - - End page content - - - - - - - - - - - - - - - - -->
+                        <!-- LAYER NR. 2 -->
+                        <h1 class="tp-caption customin customout sfb h1"
+                            data-x="center"
+                            data-hoffset="0"
+                            data-y="center"
+                            data-voffset="0"
+                            data-speed="800"
+                            data-start="1400"
+                            data-endspeed="500"
+                            data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-easing="Linear.easeNone"
+                            data-elementdelay="0.1"
+                            data-endeasing="Linear.easeNone">NOW PRODUCTIONS INC.
+                        </h1>
+
+                        <!-- LAYER NR. 3 -->
+                        <div href="#portfolio" class="tp-caption customin customout sfb"
+                            data-x="center"
+                            data-hoffset="0"
+                            data-y="center"
+                            data-voffset="90"
+                            data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="800"
+                            data-start="2000"
+                            data-endspeed="500"
+                            data-easing="Linear.easeNone"
+                            data-elementdelay="0.1">
+                            <a class="btn btn-md btn-white-line xs-hidden">Read More</a><span class="btn-space-10 xs-hidden"></span><a class="btn btn-md btn-white">Learn More</a>
+                        </div>
+
+
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+    <!-- End Revolution Bg Video -->
+<!-- Process -->
+<section id="process" class="ptb ptb-sm-80">
+    <div class="wow fadeInLeft container text-center">
+        <h3>Easy Process</h3>
+        <div class="spacer-60"></div>
+        <div class="row">
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <div class="tipped" data-title="Step1 - Skype Interview" data-tipper-options='{"direction":"top"}'>
+                    <div class="page-icon-top"><i class="ion ion-ios-people-outline"></i></div>
+                    <h6>Interview</h6>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <div class="tipped" data-title="Step2 - Project Plan" data-tipper-options='{"direction":"top"}'>
+                    <div class="page-icon-top"><i class="ion ion-ios-paper-outline"></i></div>
+                    <h6>Plan</h6>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <div class="tipped" data-title="Step3 - Design" data-tipper-options='{"direction":"top"}'>
+                    <div class="page-icon-top"><i class="ion ion-ios-compose-outline"></i></div>
+                    <h6>Design</h6>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <div class="tipped" data-title="Step4 - Development" data-tipper-options='{"direction":"top"}'>
+                    <div class="page-icon-top"><i class="ion ion-ios-gear-outline"></i></div>
+                    <h6>Development</h6>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <div class="tipped" data-title="Step5 - Testing" data-tipper-options='{"direction":"top"}'>
+                    <div class="page-icon-top"><i class="ion ion-ios-pulse"></i></div>
+                    <h6>Testing</h6>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <div class="tipped" data-title="Step6 - Delivery" data-tipper-options='{"direction":"top"}'>
+                    <div class="page-icon-top"><i class="ion ion-ios-clock-outline"></i></div>
+                    <h6>Delivery</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Process -->
+
+<hr />
+
+<!-- End Intro -->
