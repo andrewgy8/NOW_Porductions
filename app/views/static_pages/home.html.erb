@@ -1,104 +1,305 @@
 <% provide(:title, "Home") %>
 
 <!-- Intro -->
-<section id="intro" class="intro">
+        <section id="intro" class="intro">
+            <!-- Static Intro -->
+            <div class="bg-image overlay-dark dark-bg bg-fixed" data-background-img="/assets/Hopetoun_falls.jpg">
+                <div class="js-fullscreen-height container">
+                    <div class="intro-content">
+                        <div class="intro-content-inner">
+                            <h5>The Digitel Agency</h5>
+                            <h2 class="h2">Mazel Creative Agency</h2>
+                            <div class="row">
+                                <p class="lead col-md-6 col-md-offset-3">e natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo invento</p>
+                            </div>
+                            <br>
+                            <div><a class="btn btn-md btn-white-line xs-hidden">Read More</a><span class="btn-space-10 xs-hidden"></span><a class="btn btn-md btn-white">Learn More</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Static Intro -->
+        </section>
+        <!-- End Intro -->
+        <div class="clearfix"></div>
 
-    <!-- Revolution Bg Video -->
-    <div class="tp-banner-container">
-        <div class="intro-Rev_Video text-center dark-bg black-bg">
-            <ul>
-                <li data-transition="fadein" data-slotamount="default" data-saveperformance="off" data-fsslotamount="7">
+        <!--About Section-->
+        <section id="about" class="wow fadeIn ptb ptb-sm-80">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h3 class="h4">About Studio</h3>
+                        <div class="spacer-15"></div>
+                        <p class="lead">Integer tincidunt Cras dapibus. <a class="tipped" data-title="Sample Text" data-tipper-options='{"direction":"top"}'><b>Vivamus elementum</b></a> ultricies nisi vel augue. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante dapibus.</p>
+                    </div>
+                </div>
+                <div class="row mt-80">
+                    <!-- Welcome Content -->
+                    <div class="col-md-7 mb-30">
+                        <h4>WE`RE CREATIVE.</h4>
+                        <div class="spacer-15"></div>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur?</p>
+                        <div class="spacer-15"></div>
+                        <a class="btn-link-a">More About</a>
+                    </div>
+                    <!-- End Welcome Content -->
 
-                    <!-- MAIN IMAGE -->
-                    <img src="media/video1_poster.jpg" alt="video_forest" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                    <!-- LAYERS -->
-
-                    <!-- Video Bg-->
-                    <div class="tp-caption fullscreenvideo"
-                        data-x="0"
-                        data-y="0"
-                        data-speed="0"
-                        data-start="0"
-                        data-easing="easeNone"
-                        data-endspeed="1500"
-                        data-endeasing="easeNone"
-                        data-autoplay="true"
-                        data-autoplayonlyfirsttime="false"
-                        data-nextslideatend="true"
-                        data-videowidth="100%"
-                        data-videoheight="100%"
-                        data-forcecover="1"
-                        data-dottedoverlay="twoxtwo"
-                        data-aspectratio="16:9"
-                        data-forcerewind="on"
-                        data-volume="mute"
-                        style="z-index: 2">
-
-
-                        <video class="video-js vjs-default-skin" preload="" loop="" width="100%" height="100%"
-                            poster='media/video1_poster.jpg'>
-                            <%= image_tag("Snowdrops-in-the-woods.mp4", :type => "video/mp4") %>
-                            <source src='media/video1.webm' type='video/webm' />
-                            <source src='media/video1.ogv' type='video/ogg' />
-                        </video>
-
-
-                        <!-- LAYER NR. 1 -->
-                        <h5 class="tp-caption customin customout sfb"
-                            data-x="center"
-                            data-hoffset="0"
-                            data-y="center"
-                            data-voffset="-80"
-                            data-speed="800"
-                            data-start="800"
-                            data-endspeed="500"
-                            data-customin="x:-0;y:-100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
-                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                            data-easing="Linear.easeNone"
-                            data-elementdelay="0.1">The Film Agency
-                        </h5>
-
-                        <!-- LAYER NR. 2 -->
-                        <h1 class="tp-caption customin customout sfb h1"
-                            data-x="center"
-                            data-hoffset="0"
-                            data-y="center"
-                            data-voffset="0"
-                            data-speed="800"
-                            data-start="1400"
-                            data-endspeed="500"
-                            data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                            data-easing="Linear.easeNone"
-                            data-elementdelay="0.1"
-                            data-endeasing="Linear.easeNone">NOW PRODUCTIONS INC.
-                        </h1>
-
-                        <!-- LAYER NR. 3 -->
-                        <div href="#portfolio" class="tp-caption customin customout sfb"
-                            data-x="center"
-                            data-hoffset="0"
-                            data-y="center"
-                            data-voffset="90"
-                            data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
-                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                            data-speed="800"
-                            data-start="2000"
-                            data-endspeed="500"
-                            data-easing="Linear.easeNone"
-                            data-elementdelay="0.1">
-                            <a class="btn btn-md btn-white-line xs-hidden">Read More</a><span class="btn-space-10 xs-hidden"></span><a class="btn btn-md btn-white">Learn More</a>
+                    <!-- Skills -->
+                    <div class="col-md-5">
+                        <div class="skillbar" data-percent="55%">
+                            <div class="skillbar-title">Web design</div>
+                            <div class="skill-bar-percent">55%</div>
+                            <div class="skillbar-bar"></div>
                         </div>
 
+                        <div class="skillbar" data-percent="80%">
+                            <div class="skillbar-title">development</div>
+                            <div class="skill-bar-percent">80%</div>
+                            <div class="skillbar-bar"></div>
+                        </div>
+
+                        <div class="skillbar" data-percent="40%">
+                            <div class="skillbar-title">Photography</div>
+                            <div class="skill-bar-percent">40%</div>
+                            <div class="skillbar-bar"></div>
+                        </div>
+
+                        <div class="skillbar" data-percent="70%">
+                            <div class="skillbar-title">branding</div>
+                            <div class="skill-bar-percent">70%</div>
+                            <div class="skillbar-bar"></div>
+                        </div>
+                    </div>
+                    <!-- End Skills -->
+                </div>
+            </div>
+        </section>
+        <!-- End About Section-->
+        <hr />
+        <!-- Service Section -->
+        <section id="service" class="ptb ptb-sm-80">
+            <div class="wow fadeInLeft container text-center">
+                <h3>Our Services</h3>
+                <div class="spacer-60"></div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 mb-45">
+                        <div class="page-icon-top"><i class="ion ion-ios-compose-outline"></i></div>
+                        <h5>Web Design</h5>
+                        <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-45">
+                        <div class="page-icon-top"><i class="ion ion-ios-gear-outline"></i></div>
+                        <h5>Development</h5>
+                        <p>Donec sodales sagittis magna. hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus, augue velit cursus nunc.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-45">
+                        <div class="page-icon-top"><i class="ion ion-social-apple-outline"></i></div>
+                        <h5>Branding</h5>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-45">
+                        <div class="page-icon-top"><i class="ion ion-ios-compose-outline"></i></div>
+                        <h5>Photography</h5>
+                        <p>Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-45">
+                        <div class="page-icon-top"><i class="ion ion-ios-gear-outline"></i></div>
+                        <h5>Typography</h5>
+                        <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-45">
+                        <div class="page-icon-top"><i class="ion ion-social-apple-outline"></i></div>
+                        <h5>Ui Design</h5>
+                        <p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Service Section -->
+
+        <!-- Counter Section -->
+        <section id="counter" class="overlay-dark80 light-color ptb-80" style="background-image: url('img/full/23.jpg');" data-stellar-background-ratio="0.5">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-3 mb-sm-30">
+                        <h1 class="counter" data-count="59">0</h1>
+                        <h6>awards</h6>
+                    </div>
+                    <div class="col-md-3 mb-sm-30">
+                        <h1 class="counter" data-count="1054">0</h1>
+                        <h6>Clients</h6>
+                    </div>
+                    <div class="col-md-3 mb-sm-30">
+                        <h1 class="counter" data-count="34">0</h1>
+                        <h6>Team</h6>
+                    </div>
+                    <div class="col-md-3 mb-sm-30">
+                        <h1 class="counter" data-count="154">0</h1>
+                        <h6>Project</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Counter Section -->
+
+        <!-- Work Section -->
+        <section id="work" class="wow fadeInUp pt pt-sm-80 text-center">
+            <div class="container">
+                <h3>Great Work</h3>
+                <div class="spacer-30"></div>
+                <!-- work Filter -->
+                <div class="row">
+                    <ul class="container-filter categories-filter">
+                        <li><a class="categories active" data-filter="*">All</a></li>
+                        <li><a class="categories" data-filter=".branding">Branding</a></li>
+                        <li><a class="categories" data-filter=".design">Design</a></li>
+                        <li><a class="categories" data-filter=".photo">Photo</a></li>
+                        <li><a class="categories" data-filter=".coffee">coffee</a></li>
+                    </ul>
+                </div>
+                <!-- End work Filter -->
+            </div>
+            <!-- Work Gallary -->
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="container-grid nf-col-4">
+
+                        <div class="nf-item branding design coffee">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/1.jpg" title="Consequat massa quis">
+                                    <img class="item-container" src="img/portfolio/1.jpg" alt="1" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Consequat massa quis</h5>
+                                            <p class="white">Branding, Design, Coffee</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item photo">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/2.jpg" title="Vivamus elementum semper">
+                                    <img class="item-container" src="img/portfolio/2.jpg" alt="2" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Vivamus elementum semper</h5>
+                                            <p class="white">Photo</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item branding design coffee">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/3.jpg" title="Quisque rutrum">
+                                    <img class="item-container" src="img/portfolio/3.jpg" alt="4" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Quisque rutrum</h5>
+                                            <p class="white">Branding, Design, Coffee</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item branding design">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/4.jpg" title="Tellus eget condimentum">
+                                    <img class="item-container" src="img/portfolio/4.jpg" alt="4" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Tellus eget condimentum</h5>
+                                            <p class="white">Design</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item branding design">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/5.jpg" title="Nullam quis ant">
+                                    <img class="item-container" src="img/portfolio/5.jpg" alt="5" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Nullam quis ant</h5>
+                                            <p class="white">Branding, Design</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item photo">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/6.jpg" title="Sed fringilla mauris">
+                                    <img class="item-container" src="img/portfolio/6.jpg" alt="6" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Sed fringilla mauris</h5>
+                                            <p class="white">Photo</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item design">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/7.jpg" title="Augue velit cursus">
+                                    <img class="item-container" src="img/portfolio/7.jpg" alt="7" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Augue velit cursus</h5>
+                                            <p class="white">Design</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item coffee">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/8.jpg" title="Donec sodales sagittis">
+                                    <img class="item-container" src="img/portfolio/8.jpg" alt="8" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Donec sodales sagittis</h5>
+                                            <p class="white">Coffee</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
 
                     </div>
+                </div>
+            </div>
+            <!-- End Work Gallary -->
+        </section>
+        <!-- End Work Section -->
 
-                </li>
-            </ul>
-        </div>
-    </div>
-</section>
-    <!-- End Revolution Bg Video -->
+        <!-- Action Box Section -->
+        <section id="action-box" class="dark-bg ptb-60">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-8">
+                        <h4 class="">Penatibus magnis dis parturient?</h4>
+                        <p class="mb-0">Porttitor eu consequat vitae 9hasellus viverra nulla ut metus varius laoreet vitae.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <a class="btn btn-md btn-white float-right float-none-xs">See All Work</a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Action Box Section -->
 <!-- Process -->
 <section id="process" class="ptb ptb-sm-80">
     <div class="wow fadeInLeft container text-center">
