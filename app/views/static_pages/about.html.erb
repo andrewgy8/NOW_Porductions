@@ -1,86 +1,334 @@
 <% provide(:title, "About") %>
 
-<%= stylesheet_link_tag "application" %>
-<%= javascript_include_tag "application" %>
+<!-- Intro Section -->
+<section class="inner-intro dark-bg bg-image overlay-dark parallax parallax-background1" data-background-img="img/full/08.jpg">
+    <div class="container">
+        <div class="row title">
+            <h2 class="h2">About Us</h2>
+            <div class="page-breadcrumb">
+                <a>Home</a>/<span>About</span>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="clearfix"></div>
+<!-- End Intro Section -->
 
-<div id="page_loader" class="page_loader">
 
-			<div id="loader"></div>
-		</div>
+<!-- About Section -->
+<section id="about" class="wow fadeIn ptb ptb-sm-80">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-8 col-md-offset-2">
+                <h3 class="h4">We Creative digital Studio</h3>
+                <div class="spacer-15"></div>
+                <p class="lead">Integer tincidunt Cras dapibus. <a class="tipped" data-title="Sample Text" data-tipper-options='{"direction":"top"}'><b>Vivamus elementum</b></a> ultricies nisi vel augue. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante dapibus.</p>
+            </div>
+        </div>
+        <div class="row mt-80">
+            <!-- Accordion -->
+            <div class="col-md-6 mb-30">
+                <div class="accordion">
+                    <div class="accordion-section">
+                        <h6 class="accordion-title">WE CARE.</h6>
+                        <div class="accordion-content">
+                            <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel</p>
+                            <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-section">
+                        <h6 class="accordion-title">WE`RE CREATIVE.</h6>
+                        <div class="accordion-content">
+                            <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel</p>
+                            <ul class="gray">
+                                <li>Sit amet adipiscing sem neque.</li>
+                                <li>Sapien ut libero venenatis faucibus.</li>
+                                <li>Eget eros faucibus.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-section">
+                        <h6 class="accordion-title">WE DELIVER.</h6>
+                        <div class="accordion-content">
+                            <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel</p>
+                            <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-section">
+                        <h6 class="accordion-title">What we Do.</h6>
+                        <div class="accordion-content">
+                            <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel</p>
+                            <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Accordion -->
 
-		<!-- - - - - - - - - - - - - - Cookie Control & Old ie Message - - - - - - - - - - - - - - - - -->
+            <!-- Skills -->
+            <div class="col-md-6">
+                <div class="skillbar" data-percent="55%">
+                    <div class="skillbar-title">Web design</div>
+                    <div class="skill-bar-percent">55%</div>
+                    <div class="skillbar-bar"></div>
+                </div>
 
-		<div class="messages_wrap">
+                <div class="skillbar" data-percent="80%">
+                    <div class="skillbar-title">development</div>
+                    <div class="skill-bar-percent">80%</div>
+                    <div class="skillbar-bar"></div>
+                </div>
 
-			<!-- - - - - - - - - - - - - - Old IE Message - - - - - - - - - - - - - - - - -->
+                <div class="skillbar" data-percent="40%">
+                    <div class="skillbar-title">Photography</div>
+                    <div class="skill-bar-percent">40%</div>
+                    <div class="skillbar-bar"></div>
+                </div>
 
-			<!--[if lt IE 9]>
+                <div class="skillbar" data-percent="70%">
+                    <div class="skillbar-title">branding</div>
+                    <div class="skill-bar-percent">70%</div>
+                    <div class="skillbar-bar"></div>
+                </div>
+            </div>
+            <!-- End Skills -->
+        </div>
+    </div>
+</section>
 
-			<div class="old_ie_message">
+<hr />
 
-				<div class="on_the_sides">
+<!-- Team -->
+<section class="ptb ptb-sm-80">
+    <div class="container text-center">
+        <h3>Meet The Team</h3>
+        <div class="spacer-60"></div>
+        <!--Team Carousel -->
+        <div class="row">
+            <div class="owl-carousel team-carousel nf-carousel-theme">
 
-					<div class="left_side">
+                <div class="item">
+                    <div class="team-item nf-col-padding">
+                        <div class="team-item-img">
+                            <img src="img/team/people-1.jpg" alt="" />
+                            <div class="team-item-detail">
+                                <div class="team-item-detail-inner light-color">
+                                    <h5>Mitchell KAPPOS</h5>
+                                    <p>Similique sunt culpa qui officia deserunt mollitia animi dolorum fuga.</p>
+                                    <ul class="social">
+                                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="https://www.dribbble.com/" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+                                        <li><a href="https://www.behance.net/" target="_blank"><i class="fa fa-behance"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item-info">
+                            <h5>Mitchell KAPPOS</h5>
+                            <p class="">Designer</p>
+                        </div>
+                    </div>
+                </div>
 
-						<i class="icon-attention"></i> <b>Attention!</b> This page may not display correctly. You are using an outdated version of Internet Explorer. For a faster, safer browsing experience.
+                <div class="item">
+                    <div class="team-item nf-col-padding">
+                        <div class="team-item-img">
+                            <img src="img/team/people-2.jpg" alt="" />
+                            <div class="team-item-detail">
+                                <div class="team-item-detail-inner light-color">
+                                    <h5>Leonardo da Vinci</h5>
+                                    <p>Similique sunt culpa qui officia deserunt mollitia animi dolorum fuga.</p>
+                                    <ul class="social">
+                                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="https://www.dribbble.com/" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+                                        <li><a href="https://www.behance.net/" target="_blank"><i class="fa fa-behance"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item-info">
+                            <h5>Leonardo da Vinci</h5>
+                            <p class="">Artist</p>
+                        </div>
+                    </div>
+                </div>
 
-					</div>
+                <div class="item">
+                    <div class="team-item nf-col-padding">
+                        <div class="team-item-img">
+                            <img src="img/team/people-3.jpg" alt="" />
+                            <div class="team-item-detail">
+                                <div class="team-item-detail-inner light-color">
+                                    <h5>John Doe</h5>
+                                    <p>Similique sunt culpa qui officia deserunt mollitia animi dolorum fuga.</p>
+                                    <ul class="social">
+                                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="https://www.dribbble.com/" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+                                        <li><a href="https://www.behance.net/" target="_blank"><i class="fa fa-behance"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item-info">
+                            <h5>John Doe</h5>
+                            <p class="">Project Manager</p>
+                        </div>
+                    </div>
+                </div>
 
-					<div class="right_side">
+                <div class="item">
+                    <div class="team-item nf-col-padding">
+                        <div class="team-item-img">
+                            <img src="img/team/people-4.jpg" alt="" />
+                            <div class="team-item-detail">
+                                <div class="team-item-detail-inner light-color">
+                                    <h5>Michael Lee</h5>
+                                    <p>Similique sunt culpa qui officia deserunt mollitia animi dolorum fuga.</p>
+                                    <ul class="social">
+                                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="https://www.dribbble.com/" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+                                        <li><a href="https://www.behance.net/" target="_blank"><i class="fa fa-behance"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item-info">
+                            <h5>Michael Lee</h5>
+                            <p class="">Photographer</p>
+                        </div>
+                    </div>
+                </div>
 
-						<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode" class="btn small transparent black" target="_blank">Update Now!</a>
+            </div>
+        </div>
+        <!--End Team Carousel --->
+    </div>
+</section>
+<!-- End Team -->
 
-					</div>
+<!-- Testimonials -->
+<section id="testimonial" class="overlay-light80 bg-img2 ptb ptb-sm-80">
+    <div class="container">
+        <div class="owl-carousel testimonial-carousel nf-carousel-theme">
+            <div class="item">
+                <div class="testimonial text-center dark-color">
+                    <div class="container-icon"><i class="fa fa-quote-right"></i></div>
+                    <p class="lead">" I got a dummy for Christmas and started teaching myself. I got books and records and sat in front of the practising. I did my first show in the third grade and just kept going. "</p>
+                    <h6 class="quote-author">Jeff Dunham <span style="font-weight: 400;">( Appel Studio )</span></h6>
+                </div>
+            </div>
+            <div class="item">
+                <div class="testimonial text-center dark-color">
+                    <div class="container-icon"><i class="fa fa-quote-right"></i></div>
+                    <p class="lead">" It's true, you can never eat a pet you name. And anyway, I did my first show in the third grade it would be like a ventriloquist eating his dummy. "</p>
+                    <h6 class="quote-author">Alexander Theroux <span style="font-weight: 400;">( USA )</span></h6>
+                </div>
+            </div>
+            <div class="item">
+                <div class="testimonial text-center dark-color">
+                    <div class="container-icon"><i class="fa fa-quote-right"></i></div>
+                    <p class="lead">" We're not leaving here without Buster, man. Leave no crash-test dummy behind! "</p>
+                    <h6 class="quote-author">Adam Savage <span style="font-weight: 400;">( Artist )</span></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Testimonials -->
 
-				</div>
+<!-- Service -->
+<section class="ptb ptb-sm-80">
+    <div class="wow fadeIn container text-center">
+        <h3>Our Services</h3>
+        <div class="spacer-60"></div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="page-icon-top"><i class="ion ion-ios-compose-outline"></i></div>
+                <h5>Web Design</h5>
+                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="page-icon-top"><i class="ion ion-ios-gear-outline"></i></div>
+                <h5>Development</h5>
+                <p>Donec sodales sagittis magna. hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus, augue velit cursus nunc.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="page-icon-top"><i class="ion ion-social-apple-outline"></i></div>
+                <h5>Branding</h5>
+                <p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Service -->
 
-			</div>
+<hr />
 
-			<![endif]-->
+<!-- Client Logos Section -->
+<section id="client-logos" class="wow fadeIn ptb ptb-sm-80">
+    <div class="container">
+        <div class="owl-carousel client-carousel nf-carousel-theme ">
+            <div class="item">
+                <div class="client-logo">
+                    <img src="img/logos/01.png" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="client-logo">
+                    <img src="img/logos/02.png" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="client-logo">
+                    <img src="img/logos/03.png" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="client-logo">
+                    <img src="img/logos/04.png" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="client-logo">
+                    <img src="img/logos/05.png" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="client-logo">
+                    <img src="img/logos/06.png" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="client-logo">
+                    <img src="img/logos/08.png" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="client-logo">
+                    <img src="img/logos/01.png" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="client-logo">
+                    <img src="img/logos/02.png" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="client-logo">
+                    <img src="img/logos/03.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Client Logos Section -->
 
-			<!-- - - - - - - - - - - - - - End of Old IE Message - - - - - - - - - - - - - - - - -->
-
-		</div>
-
-		<!-- - - - - - - - - - - - - - End of Cookie Control & Old ie Message - - - - - - - - - - - - - - - - -->
-
-		<div id="document_wrap">
-
-			
-
-			<!-- - - - - - - - - - - - - - Extended Block (image, gmap) - - - - - - - - - - - - - - - - -->
-
-			<div class="extended_wrap" data-image-url="images/top_image_4.jpg"></div>
-
-			<!-- - - - - - - - - - - - - - End of Extended Block - - - - - - - - - - - - - - - - -->
-
-			<!-- - - - - - - - - - - - - - Page content - - - - - - - - - - - - - - - - -->
-
-			<div id="page_wrap">
-
-				<main role="main">
-
-					<div class="container">
-
-						<h1>About</h1>
-
-						<img class="alignright" src="images/about_img_1.jpg" alt="">
-
-						<p>Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.Vestibulum libero nisl, porta vel. </p>
-
-						<p>Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in <a href="#">faucibus orci</a> luctus et ultrices posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit agna,endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. Quisque diam lorem, interdum vitae,dapibus ac, scelerisque vitae, pede. </p>
-
-						<p>Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum auctor pulvinar. Vestibulum iaculis lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipisMauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in,auctor ut, ligula. </p>
-
-					</div>
-
-				</main>
-
-			</div><!--/ .page_wrapper -->
-
-			<!-- - - - - - - - - - - - - - End page content - - - - - - - - - - - - - - - - -->
-
-			
-		</div>
-
-		
+<!-- About Section -->

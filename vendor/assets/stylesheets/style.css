@@ -4303,7 +4303,7 @@ ul.project-detail-block, .project-detail-block ul {
     }
 
         #preloader .loader .loader-img {
-            background: asset-url("page_loader.GIF");
+            background: asset-url("images/page_loader.GIF");
             width: 60px;
             height: 60px;
             display: block;

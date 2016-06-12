@@ -1,147 +1,104 @@
 <% provide(:title, "Contact") %>
 
+<!-- Intro Section -->
+<section class="inner-intro dark-bg bg-image overlay-dark parallax parallax-background1" data-background-img="img/full/08.jpg">
+    <div class="container">
+        <div class="row title">
+            <h2 class="h2">Contact Us</h2>
+            <div class="page-breadcrumb">
+                <a>Home</a>/<span>Contact</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Intro Section -->
 
-		<!-- - - - - - - - - - - - - - End of Cookie Control & Old ie Message - - - - - - - - - - - - - - - - -->
+<!-- Contact Section -->
+<section class="ptb ptb-sm-80">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <h3>Get In Touch</h3>
+                <p class="lead">Nullam dictum felis eu pede mollis pretium leo eget bibendum sodales augue velit cursus. tellus eget condimentum rhoncus sem quam semper libero.</p>
+            </div>
+        </div>
+        <div class="spacer-75"></div>
+        <div class="row">
+            <div class="col-md-5 contact">
+                <div class="contact-box-left mb-45">
+                    <div class="contact-icon-left"><i class="ion ion-ios-location"></i></div>
+                    <h6>Additional info</h6>
+                    <p>
+                        502, DieSachbearbeiter, Schönhauser Allee,<br />
+                        167c10435 Berlin,Germany.
+                    </p>
+                    <a href="mailto:yourname@domain.com"><i class="fa fa-envelope-o left"></i>yourname@domain.com</a><br />
+                    <a><i class="fa fa-phone left"></i>+40 (0) 012 345 6789</a>
+                </div>
+                <div class="contact-box-left mb-45">
+                    <div class="contact-icon-left"><i class="ion ion-ios-clock"></i></div>
+                    <h6>Business Hours</h6>
+                    <p>
+                        <span>Mon - Fri: 9am to 6pm</span>
+                        <br />
+                        <span>Sat : 9am to 1pm</span>
+                    </p>
+                </div>
+                <div class="contact-box-left mb-45">
 
-		<div id="document_wrap">
+                    <h6>Follow Us</h6>
+                    <ul class="list-none social">
+                        <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://vimeo.com/" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
+                        <li><a href="https://www.behance.net/" target="_blank"><i class="fa fa-behance"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-offset-1">
+                <!-- Contact FORM -->
+                <form class="contact-form" id="contact" role="form">
 
-			
-			<!-- - - - - - - - - - - - - - Extended Block (image, gmap) - - - - - - - - - - - - - - - - -->
+                    <!-- IF MAIL SENT SUCCESSFULLY -->
+                    <h6 class="successContent">
+                        <i class="fa fa-check left" style="color: #5cb45d;"></i>Your message has been sent successfully.
+                    </h6>
+                    <!-- END IF MAIL SENT SUCCESSFULLY -->
 
-			<div class="extended_wrap">
+                    <!-- MAIL SENDING UNSUCCESSFULL -->
+                    <h6 class="errorContent">
+                        <i class="fa fa-exclamation-circle left" style="color: #e1534f;"></i>There was a problem validating the form please check!
+                    </h6>
+                    <!-- END MAIL SENDING UNSUCCESSFULL -->
 
-				<!-- - - - - - - - - - - - - - Google Map - - - - - - - - - - - - - - - - -->
+                    <div class="form-field-wrapper">
+                        <input class="input-sm form-full" id="form-name" type="text" name="form-name" placeholder="Your Name" required>
+                    </div>
 
-				<div id="gmap"></div>
+                    <div class="form-field-wrapper">
+                        <input class="input-sm form-full" id="form-email" type="email" name="form-email" placeholder="Email" required>
+                    </div>
 
-				<!-- - - - - - - - - - - - - - End of Google Map - - - - - - - - - - - - - - - - -->
+                    <div class="form-field-wrapper">
+                        <input class="input-sm form-full" id="form-subject" type="text" name="form-subject" placeholder="Subject">
+                    </div>
 
-			</div>
+                    <div class="form-field-wrapper">
+                        <textarea class="form-full" id="form-message" rows="7" name="form-message" placeholder="Your Message" required></textarea>
+                    </div>
 
-			<!-- - - - - - - - - - - - - - End of Extended Block - - - - - - - - - - - - - - - - -->
+                    <button class="btn btn-md btn-black form-full" type="submit" id="form-submit" name="submit">Send Message</button>
+                </form>
+                <!-- END Contact FORM -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact Section -->
 
-			<!-- - - - - - - - - - - - - - Page content - - - - - - - - - - - - - - - - -->
-
-			<div id="page_wrap">
-
-				<main role="main">
-
-					<div class="container">
-
-						<div class="row">
-
-							<!-- - - - - - - - - - - - - - Contact Info - - - - - - - - - - - - - - - - -->
-
-							<aside role="complementary" class="col-sm-4">
-
-								<h1>Contact Info</h1>
-
-								<p>9863 - 9876 Mill Road, Cambridge, MG09 99HT</p>
-
-								<ul>
-
-									<li><span class="ci_item">Freephone:</span> +1 800 559 6580</li>
-									<li><span class="ci_item">Telephone:</span> +1 800 603 6035</li>
-									<li><span class="ci_item">FAX:</span> +1 800 889 9898</li>
-									<li><span class="ci_item">E-mail:</span> <a href="mailto:#">mail@companyname.com</a></li>
-									<li><span class="ci_item">Skype:</span> joker</li>
-
-								</ul>
-
-							</aside><!--/ [col] -->
-
-							<!-- - - - - - - - - - - - - - End of Contact Info - - - - - - - - - - - - - - - - -->
-
-							<!-- - - - - - - - - - - - - - Contact Form Section - - - - - - - - - - - - - - - - -->
-
-							<section class="col-sm-8">
-
-								<h1>Send Us a Message</h1>
-
-								<p class="cf_description">Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Fields marked * are required.</p>
-
-								<form class="contactform" novalidate>
-
-									<ul>
-
-										<!-- - - - - - - - - - - - - - Form row - - - - - - - - - - - - - - - - -->
-
-										<li class="row">
-											
-											<div class="col-sm-6">
-												
-												<input type="text" required name="cf_name" data-field-name="Name" data-min-characters="5" placeholder="Name*">
-
-											</div><!--/ [col] -->
-
-											<div class="col-sm-6">
-												
-												<input type="email" required name="cf_email" placeholder="Email*">
-
-											</div><!--/ [col] -->
-
-										</li>
-
-										<!-- - - - - - - - - - - - - - End of Form row - - - - - - - - - - - - - - - - -->
-
-										<!-- - - - - - - - - - - - - - Form row - - - - - - - - - - - - - - - - -->
-
-										<li class="row">
-											
-											<div class="col-xs-12">
-												
-												<input type="text" name="cf_subject" placeholder="Subject">
-
-											</div><!--/ [col] -->
-
-										</li>
-
-										<!-- - - - - - - - - - - - - - End of Form row - - - - - - - - - - - - - - - - -->
-
-										<!-- - - - - - - - - - - - - - Form row - - - - - - - - - - - - - - - - -->
-
-										<li class="row">
-											
-											<div class="col-xs-12">
-												
-												<textarea name="cf_message" data-field-name="Message" data-min-characters="20" required placeholder="Message*" rows="6"></textarea>
-
-											</div><!--/ [col] -->
-
-										</li>
-
-										<!-- - - - - - - - - - - - - - End of Form row - - - - - - - - - - - - - - - - -->
-
-										<!-- - - - - - - - - - - - - - Form row - - - - - - - - - - - - - - - - -->
-
-										<li class="row">
-											
-											<div class="col-xs-12">
-												
-												<button class="btn medium black">Send Message</button>
-
-											</div><!--/ [col] -->
-
-										</li>
-
-										<!-- - - - - - - - - - - - - - End of Form row - - - - - - - - - - - - - - - - -->
-
-									</ul>
-
-								</form>
-
-							</section><!--/ [col] -->
-
-							<!-- - - - - - - - - - - - - - End of Contact Form Section - - - - - - - - - - - - - - - - -->
-							
-						</div><!--/ .row -->
-
-					</div><!--/ .container -->
-
-				</main><!--/ [role="main"] -->
-
-			</div><!--/ .page_wrapper -->
-
-			<!-- - - - - - - - - - - - - - End page content - - - - - - - - - - - - - - - - -->
-
-		</div>
+<!-- Map Section -->
+<section class="map">
+    <div id="map"></div>
+</section>
+<!-- Map Section -->
