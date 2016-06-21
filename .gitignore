@@ -16,4 +16,5 @@
 !/log/.keep
 /tmp
 
-/app/assets/images
+/app/assets/
+/app/vendor/assets/
