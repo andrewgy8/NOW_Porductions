@@ -5,8 +5,8 @@
                 <!-- Logo -->
                 <div class="logo">
                     <a href="index.html">
-                        <%= asset_path("NOW_White", class: "logo-light", title: "NOW") %> 
-                        <%= asset_path("NOW_Black", class: "logo-dark", title: "NOW") %>
+                        <%= image_tag("NOW_White", class: "logo-light", title: "NOW") %> 
+                        <%= image_tag("NOW_Black", class: "logo-dark", title: "NOW") %>
 						                       
                     </a>
                 </div>
@@ -16,14 +16,14 @@
                 <div class="nav-menu">
                     <ul class="nav-menu-inner">
                         <li>
-                            <%= link_to(root_path, class: "menu-has-sub" ) do %>
+                            <%= link_to(root_path) do %>
                            		Home
                            	<% end %>
                             
                         </li>
                         <li>
 							<%= link_to(portfolio_path, class: "menu-has-sub" ) do %>
-                           		<i class="fa fa-angle-down"></i> Portfolio
+                           		Portfolio
                            	<% end %>                            
                            	<!-- Dropdown -->
                             <ul class="sub-dropdown dropdown">
@@ -81,12 +81,12 @@
                             <!-- End Dropdown -->
                         </li>
                         <li>
-							<%= link_to(about_path, class: "menu-has-sub" ) do %>
+							<%= link_to(about_path) do %>
                            		About
                            	<% end %>                              
                         </li>
                         <li>
-							<%= link_to(contact_path, class: "menu-has-sub" ) do %>
+							<%= link_to(contact_path) do %>
                            		Contact
                            	<% end %>  
                         </li>
