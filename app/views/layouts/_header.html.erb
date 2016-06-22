@@ -4,11 +4,10 @@
 
                 <!-- Logo -->
                 <div class="logo">
-                    <a href="index.html">
+                    <%= link_to(root_path) do %>
                         <%= image_tag("NOW_White", class: "logo-light", title: "NOW") %> 
                         <%= image_tag("NOW_Black", class: "logo-dark", title: "NOW") %>
-						                       
-                    </a>
+		            <% end %>
                 </div>
                 <!-- End Logo -->
 
